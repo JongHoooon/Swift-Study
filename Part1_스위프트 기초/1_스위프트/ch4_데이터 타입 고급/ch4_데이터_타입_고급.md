@@ -45,6 +45,8 @@ print("이름: \(person.0), 나이 \(person.1), 신장: \(person.2)")
 ```
 
 * 가독성을 위해 튜플의 요소마다 이름 붙이기 가능
+
+
 ```swift
 // String, Int, Double 타입을 갖는 튜플
 var person: (name: String, age: Int, height: Double) = ("hoon", 100, 182.5)
@@ -249,7 +251,7 @@ print(names.remove("john"))     // nil
   * 예상된 입력 값이 한정되어 있을 때
 * 스위프트의 열거형은 항목별로 값을 가질 수도, 가지지 않을 수도 있다.(각 항목이 그 자체로 고유의 값이 될 수 있다.)
 * 각 항목이 원시 값(Raw Valeu)형태로 (정수, 실수, 문자 타입 등의) 실제 값을 가질수도 있다.
-* 연관 값(Associated Values)을 사용하여 다른 언어에서 공용체라 부리는 값의 묶음으로도 구현 가능
+* 연관 값(Associated Values)을 사용하여 다른 언어에서 공용체라 불리는 값의 묶음으로도 구현 가능
 * switch 구문과 만났을때 멋지다
 
 ```swift

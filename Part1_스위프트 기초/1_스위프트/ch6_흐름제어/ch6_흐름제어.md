@@ -194,6 +194,7 @@ switch lunchMenu {
 ```
 
 * unknown 미사용시 문법적으로 오류가 없지만 논리적 오류가 발생할 수 있다.
+* 경고를 통해 해당 switch 구문이 모든 case에 대응되지 않음을 상기해준다.
 
 ```swift
 enum Menu { 

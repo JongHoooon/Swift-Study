@@ -47,9 +47,9 @@ print(introduceHoon)    // 제 이름은 Hoon입니다
 
 >* 매개변수와 전달인자
 >  * 매개변수(Parameter): 함수를 정의할 떄 외부로 부터 받아들이는 전달 값의 이름
->   * 위에 코드에서 name
+>       * 위에 코드에서 name
 >  * 전달인자(Argument): 함수를 실제로 호출할 떄 전달하는 값
->    * 위에 코드에서 "Hoon"
+>       * 위에 코드에서 "Hoon"
 
 </br>
 
@@ -78,7 +78,7 @@ print(sayHello(myName: "yagom", yourName: "Hoon"))  // Hello Hoon! I'm yagom
 
 </br>
 
-**매개변수 이름과 전달인자 레이블 **  
+**매개변수 이름과 전달인자 레이블**  
 * 매개변수 이름(Parameter Name): 호출 시에 매개변수에 붙이는 이름
 * 전달인자 레이블(Argument Label)
   * 매개변수이름과 전달인자 레이블을 다르게 지정하면 함수 외부에서 매개변수의 역할을 좀더 명확히 할 수있다. 
@@ -273,7 +273,7 @@ sayGoodbye()    // Good bye
 ## 2.4. 데이터 타입으로서의 함수
 
 > 스위프트의 함수는 일급 개체이므로 하나의 대이터 타입으로 사용할 수 있다.
-> 각 훔수는 매개변수 타입과 반환 타입으로 구성된 하나의 타입으로 사용(정의)할 수있다.
+> 각 함수는 매개변수 타입과 반환 타입으로 구성된 하나의 타입으로 사용(정의)할 수있다.
 > * (매개변수 타입의 나열) -> 반환 타입 </br>
 >   * (String, Int) -> String
 >   * (String, String...) -> String
@@ -287,6 +287,7 @@ sayGoodbye()    // Good bye
 > sayHello(name:times:)
 
 * 함수 타입의 사용
+
 ```swift
 typealias CalculateTwoInts = (Int, Int) -> Int
 

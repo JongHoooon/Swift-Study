@@ -650,4 +650,4 @@ myNavi.guideWay()
 print(SystemVolume.volume)  // 0
 
 myNavi.finishGuideWay()
-print(SystemVolume.volume)  // 5 
+print(SystemVolume.volume)  // 5

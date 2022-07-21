@@ -83,7 +83,7 @@ jenny.weight = 123.4    // 변경 가능
 </br>
 
 ### 2.3. 클래스 인스턴스의 소멸
-* 소멸(deinit): 클래스의 인스턴스는 참조 타입이므로 참조할 필요가 없을 떄 메모리에서 해체된다.
+* 소멸(deinit): 클래스의 인스턴스는 참조 타입이므로 참조할 필요가 없을 때 메모리에서 해체된다.
 * 디이니셜라이저(Deinitializer)
 * 클래스당 하나만 구현 가능
 * 매개변수와 반환 값을 가질 수 없다.   
@@ -170,7 +170,7 @@ print("friend's height: \(friend.height)")  // 0.0
 
 friend.height = 185.5
 print("yagom's height: \(yagom.height)")
-// 185.5 - friend는 yagom을 참조하기 떄문에 값이 변동됩니다.
+// 185.5 - friend는 yagom을 참조하기 때문에 값이 변동됩니다.
 
 print("friend's height: \(friend.height)")
 // 185.5 - 이를 통해 yagom이 참조하는 곳과 friend가 참조하는 곳이 같음을 알 수 있다.
@@ -189,7 +189,7 @@ func changePersonInfo(_ info: Person) {
 changeBasicInfo(yagomInfo)
 print("yagom's age: \(yagomInfo.age)")      // 100
 
-// changePersonInfo(_:)의 전달인자로 yagom의 참조가 전달되었기 떄문에
+// changePersonInfo(_:)의 전달인자로 yagom의 참조가 전달되었기 때문에
 // yagom이 참조하는 값들에 변화가 생긴다.
 changePersonInfo(yagom)
 print("yagom's height: \(yagom.height)")    // 155.3
@@ -219,7 +219,7 @@ print(friend !== anotherFriend) // true
 
 </br>
 
-### 3.2. 스위프트이 기본 데이터 타입은 모두 구조체
+### 3.2. 스위프트의 기본 데이터 타입은 모두 구조체
 
 * 기본 데이터 타입은 모두 값 타입이다.
 * C 언어 등의 코딩스타일처럼 함수의 전달인자로 참조를 전달하고 싶다면 매개변수를 사용.
